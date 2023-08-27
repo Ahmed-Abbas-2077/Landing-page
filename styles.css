@@ -1,8 +1,19 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    width: 100vw;
     height: 100vh;
+    margin: 0;
 }
 
 header,
@@ -57,6 +68,7 @@ header {
     align-items: stretch;
     padding-left: 200px;
     padding-right: 200px;
+    margin: 0;
 }
 
 /* Remove bullets */
@@ -78,4 +90,69 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-area {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+
+.text-area h1 {
+    font-size: 48px;
+    color: #F9FAFB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.text-area p {
+    font-size: 18px;
+    color: #ffffffb0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    width: 400px;
+}
+
+.text-area button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.container1-img img {
+    width: 69%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    justify-content: flex-end;
+    margin-right: 160px;
+    border-radius: 5%;
+}
+
+.container1-img {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    margin-right: auto;
 }
